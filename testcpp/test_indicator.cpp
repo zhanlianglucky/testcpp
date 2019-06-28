@@ -8,16 +8,87 @@
 using namespace std;
 
 //声明函数
-void test();
-void test2();
+void test_indicator_arry();
+void test_indicator_char_arry();
+void test_indicators();
+void print_array(int * arr,int arr_length);
+void test_print();
+int * create_array();
+void test_create_array();
+
 
 int main()
 {
-	test2();
+	test_create_array();
+	
+}
+
+//调试
+void test_create_array() {
+	print_array(create_array(),10);
+}
+
+
+//创建一个int型内容随机的数组
+int * create_array() {
+	int arr[10];
+	for (int i = 0; i < 10;i++) {
+		arr[i] = rand();
+	}
+	return arr;
+}
+
+
+//打印数据测试
+void test_print() {
+	 int parr[3] = { 1,2,3 };
+	 print_array(parr,3);
+
+}
+
+//打印数据
+void print_array(int * arry,int arr_length) {
+	cout << "=========================" << endl;
+	for (int i = 0; i < arr_length; i++) {
+		cout << "arry[" << i << "] = "<<arry[i]<< endl;
+	}
+	cout << "=========================" << endl;
+}
+
+
+
+
+//多级指针
+void test_indicators() {
+	int a = 300;
+	int *pa = &a;
+	int **ppa = &pa;
+
+	cout << "a = " << a << endl;
+	cout << "&a = " << &a << endl;
+
+	cout << "==================================" << endl;
+
+	cout << "pa = " << pa << endl;//取a的地址
+	cout << "*pa = " << *pa << endl;//取a的值
+	cout << "&pa = " << &pa << endl;//取pa的地址
+
+	cout << "==================================" << endl;
+
+	cout << "ppa = " << ppa << endl;//取pa的地址
+	cout << "*ppa = " << *ppa << endl;//取a的地址
+	cout << "**ppa = " << **ppa << endl;//取最终的值
+
+	cout << "==================================" << endl;
+
+	if (ppa == &pa) {
+		cout << "ppa == &pa" << endl;
+	}
+
 }
 
 //指针操作字符串列表
-void test2() {
+void test_indicator_char_arry() {
 	const char * p[3] = {"zhang san","li si","wang wu"};
 	for (int i = 0; i < 3;i++) {
 		cout << p[i] << endl;
@@ -26,7 +97,7 @@ void test2() {
 
 
 //使用指针遍历数组
-void test() {
+void test_indicator_arry() {
 	int max = 3;
 	int arr[3] = { 1,2,3 };
 	int *p;
