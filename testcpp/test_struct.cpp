@@ -21,11 +21,11 @@ void test();
 void print_device(Device device);
 void print_person(Person * person);
 
-
+///////////////////////////////////////////
 /*int main() {
 	test();
 }*/
-
+///////////////////////////////////////////
 
 void test() {
 

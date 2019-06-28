@@ -35,5 +35,8 @@
     <ClCompile Include="test_class.cpp">
       <Filter>源文件\test_class</Filter>
     </ClCompile>
+    <ClCompile Include="test_function.cpp">
+      <Filter>源文件\test_class</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
