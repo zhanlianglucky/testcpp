@@ -17,11 +17,11 @@ int * create_array();
 void test_create_array();
 
 
-int main()
+/*int main()
 {
 	test_create_array();
 	
-}
+}*/
 
 //调试
 void test_create_array() {

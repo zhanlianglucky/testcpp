@@ -1,3 +1,2 @@
-﻿  test_indicator.cpp
-d:\testcpp\testcpp\testcpp\test_indicator.cpp(38): warning C4172: 返回局部变量或临时变量的地址: arr
+﻿  test_struct.cpp
   testcpp.vcxproj -> D:\testcpp\testcpp\Debug\testcpp.exe
