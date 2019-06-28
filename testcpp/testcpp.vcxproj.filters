@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\test_class">
+      <UniqueIdentifier>{20e9e443-d745-45b2-8073-18a84d5adcff}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -28,6 +31,9 @@
     </ClCompile>
     <ClCompile Include="test_struct.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_class.cpp">
+      <Filter>源文件\test_class</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

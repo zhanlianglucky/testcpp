@@ -22,9 +22,9 @@ void print_device(Device device);
 void print_person(Person * person);
 
 
-int main() {
+/*int main() {
 	test();
-}
+}*/
 
 
 void test() {
