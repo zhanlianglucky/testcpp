@@ -21,9 +21,8 @@ public:
 
 int Box::width = 12;//静态属性使用方式
 
-int main() {
-	
+/*int main() {
 	cout <<"Box'x width = "<< Box::width << endl;
 	cout << "12 + 13 = " << Box::add(12,13) << endl;//静态函数调用方式
-}
+}*/
 
