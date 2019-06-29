@@ -99,7 +99,7 @@ inline int add(int a, int b) {
 }
 
 
-int main() {
+/*int main() {
 	Person person;
 	cout << "person.age = "<<person.age<< " : tall = "<< person.tall<< endl;
 	cout << "person.id = " << person.getId()<< endl;
@@ -110,5 +110,5 @@ int main() {
 
 	cout << "12 + 13 = " << add(12,13) << endl;
 
-}
+}*/
 
