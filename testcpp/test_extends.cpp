@@ -40,10 +40,10 @@ public:
 };
 
 
-int main() {
+/*int main() {
 	Worker worker;
 	worker.print();
 
 	HaShiQi hashiqi;
 	hashiqi.print();
-}
+}*/

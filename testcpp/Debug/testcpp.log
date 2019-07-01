@@ -1,2 +1,2 @@
-﻿  test_extends.cpp
-  testcpp.vcxproj -> D:\testcpp\testcpp\Debug\testcpp.exe
+﻿  test_new.cpp
+LINK : fatal error LNK1168: 无法打开 D:\testcpp\testcpp\Debug\testcpp.exe 进行写入

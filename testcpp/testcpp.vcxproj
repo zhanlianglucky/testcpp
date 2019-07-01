@@ -164,6 +164,7 @@
     <ClCompile Include="test_extends.cpp" />
     <ClCompile Include="test_function.cpp" />
     <ClCompile Include="test_indicator.cpp" />
+    <ClCompile Include="test_new.cpp" />
     <ClCompile Include="test_static.cpp" />
     <ClCompile Include="test_struct.cpp" />
   </ItemGroup>
