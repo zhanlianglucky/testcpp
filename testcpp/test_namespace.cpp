@@ -19,9 +19,9 @@ namespace namespace_two {
 
 using namespace namespace_one;
 
-int main() {
+/*int main() {
 	print();
 	namespace_two::print();
 
 	return 0;
-}
+}*/

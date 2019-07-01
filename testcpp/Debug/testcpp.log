@@ -1,2 +1,2 @@
-﻿  test_namespace.cpp
-LINK : fatal error LNK1168: 无法打开 D:\testcpp\testcpp\Debug\testcpp.exe 进行写入
+﻿  test_define.cpp
+  testcpp.vcxproj -> D:\testcpp\testcpp\Debug\testcpp.exe
