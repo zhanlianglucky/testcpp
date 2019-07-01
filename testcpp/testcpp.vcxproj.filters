@@ -47,5 +47,8 @@
     <ClCompile Include="test_new.cpp">
       <Filter>源文件\test_class</Filter>
     </ClCompile>
+    <ClCompile Include="test_namespace.cpp">
+      <Filter>源文件\test_class</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

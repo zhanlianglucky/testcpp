@@ -10,9 +10,9 @@ using namespace std;
 void test_new();
 void test_obj();
 
-int main() {
+/*int main() {
 	test_obj();
-}
+}*/
 
 class Car {
 public:
