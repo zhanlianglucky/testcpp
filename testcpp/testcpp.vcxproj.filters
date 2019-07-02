@@ -62,5 +62,8 @@
     <ClCompile Include="test_define.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="test_signal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

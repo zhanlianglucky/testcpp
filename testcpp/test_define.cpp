@@ -29,17 +29,20 @@ cerr << "Variable x = " << x << endl;
 //加法运算
 #define SUM(a,b) (a+b)
 
+void test_define();
 
-int main() {
+/*int main() {
+	test_define();
+	return 0;
+}*/
 
+void test_define() {
 	cout << NULL << endl;
 
-	cout << CONTACT(12,12);//输出结果为1212
+	cout << CONTACT(12, 12);//输出结果为1212
 	cout << endl;
 
 	cout << SUM(12, 12) << endl;//输出24
 
 	cout << STR(hello world) << endl;
-
-	return 0;
 }
