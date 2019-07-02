@@ -10,10 +10,10 @@ using namespace std;
 void test_signal();
 void signal_operate(int);
 
-int main() {
+/*int main() {
 	test_signal();
 	return 0;
-}
+}*/
 
 void test_signal() {
 	signal(SIGINT,signal_operate);//设置监听器  按 ctrl+C 执行中断操作
