@@ -68,5 +68,8 @@
     <ClCompile Include="test_pthread.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="test_stl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

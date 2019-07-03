@@ -173,6 +173,7 @@
     <ClCompile Include="test_pthread.cpp" />
     <ClCompile Include="test_signal.cpp" />
     <ClCompile Include="test_static.cpp" />
+    <ClCompile Include="test_stl.cpp" />
     <ClCompile Include="test_struct.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

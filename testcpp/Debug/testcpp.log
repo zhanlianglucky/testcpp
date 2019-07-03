@@ -1,2 +1,3 @@
-﻿  test_pthread.cpp
+﻿  test_stl.cpp
+d:\testcpp\testcpp\testcpp\test_stl.cpp(47): warning C4018: “<”: 有符号/无符号不匹配
   testcpp.vcxproj -> D:\testcpp\testcpp\Debug\testcpp.exe

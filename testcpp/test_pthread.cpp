@@ -14,10 +14,10 @@ int test_add(int a,int b);
 mutex mt;
 
 
-int main() {
+/*int main() {
 	test_thread();
 	return 0;
-}
+}*/
 
 int test_add(int a,int b) {
 	mt.lock();//Ïß³ÌËø¶¨
