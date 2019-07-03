@@ -170,6 +170,7 @@
     <ClCompile Include="test_indicator.cpp" />
     <ClCompile Include="test_namespace.cpp" />
     <ClCompile Include="test_new.cpp" />
+    <ClCompile Include="test_pthread.cpp" />
     <ClCompile Include="test_signal.cpp" />
     <ClCompile Include="test_static.cpp" />
     <ClCompile Include="test_struct.cpp" />
